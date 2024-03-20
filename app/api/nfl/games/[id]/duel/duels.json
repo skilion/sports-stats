@@ -1,0 +1,2808 @@
+[
+	{
+		"game_id": 1,
+		"home": {
+			"team": {
+				"id": 1,
+				"name": "Washington Huskies"
+			},
+			"agg_stats": {
+				"pointsScoredPerGame": 28,
+				"passingYardsPerGame": 250,
+				"sackedYardsPerGame": 30,
+				"rushingYardsPerGame": 120
+			},
+			"top_passing_players": [
+				{
+					"player": {
+						"id": 101,
+						"name": "John Doe",
+						"position": "QB"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.2,
+						"rushingTouchdownsTotal": 2,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 2,
+						"receptionsPerGame": 0,
+						"rushingYardsPerGame": 15,
+						"passingYardsPerGame": 280,
+						"receivingYardsPerGame": 0
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 3,
+							"receptions": 0,
+							"rushingYards": 10,
+							"passingYards": 300,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 2,
+							"receptions": 0,
+							"rushingYards": 20,
+							"passingYards": 270,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 4,
+							"receptions": 0,
+							"rushingYards": 30,
+							"passingYards": 310,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 3,
+							"rushingAttempts": 2,
+							"receptions": 0,
+							"rushingYards": 15,
+							"passingYards": 330,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 3,
+							"receptions": 0,
+							"rushingYards": 25,
+							"passingYards": 290,
+							"receivingYards": 0
+						}
+					]
+				}
+			],
+			"top_rushing_players": [
+				{
+					"player": {
+						"id": 102,
+						"name": "Michael Johnson",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 3.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.8,
+						"rushingTouchdownsTotal": 8,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 18,
+						"receptionsPerGame": 2,
+						"rushingYardsPerGame": 85,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 30
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 20,
+							"receptions": 2,
+							"rushingYards": 90,
+							"passingYards": 0,
+							"receivingYards": 35
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 16,
+							"receptions": 3,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 25
+						},
+						{
+							"rushingTouchdowns": 2,
+							"touchdowns": 3,
+							"rushingAttempts": 22,
+							"receptions": 1,
+							"rushingYards": 100,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 18,
+							"receptions": 2,
+							"rushingYards": 85,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 19,
+							"receptions": 3,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 35
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 103,
+						"name": "David Smith",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.8
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.5,
+						"rushingTouchdownsTotal": 5,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 12,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 60,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 45
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 14,
+							"receptions": 4,
+							"rushingYards": 55,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 15,
+							"receptions": 3,
+							"rushingYards": 65,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 12,
+							"receptions": 4,
+							"rushingYards": 60,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 13,
+							"receptions": 3,
+							"rushingYards": 65,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 14,
+							"receptions": 4,
+							"rushingYards": 55,
+							"passingYards": 0,
+							"receivingYards": 50
+						}
+					]
+				}
+			],
+			"top_receiving_players": [
+				{
+					"player": {
+						"id": 104,
+						"name": "Chris Thompson",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.2
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 5,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 5,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 80
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 6,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 6,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 6,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 105,
+						"name": "Tyler Johnson",
+						"position": "TE"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 4,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 4,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 70
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 106,
+						"name": "Mark Williams",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.3
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 3,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 60
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 107,
+						"name": "Jordan Martinez",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 50
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				}
+			],
+			"top_touchdowns_players": [
+				{
+					"player": {
+						"id": 102,
+						"name": "Michael Johnson",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 3.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.8,
+						"rushingTouchdownsTotal": 8,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 18,
+						"receptionsPerGame": 2,
+						"rushingYardsPerGame": 85,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 30
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 20,
+							"receptions": 2,
+							"rushingYards": 90,
+							"passingYards": 0,
+							"receivingYards": 35
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 16,
+							"receptions": 3,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 25
+						},
+						{
+							"rushingTouchdowns": 2,
+							"touchdowns": 3,
+							"rushingAttempts": 22,
+							"receptions": 1,
+							"rushingYards": 100,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 18,
+							"receptions": 2,
+							"rushingYards": 85,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 19,
+							"receptions": 3,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 35
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 104,
+						"name": "Chris Thompson",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.2
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 5,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 5,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 80
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 6,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 6,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 6,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 105,
+						"name": "Tyler Johnson",
+						"position": "TE"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 4,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 4,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 70
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						}
+					]
+				}
+			]
+		},
+		"away": {
+			"team": {
+				"id": 2,
+				"name": "Michigan Wolverines"
+			},
+			"agg_stats": {
+				"pointsScoredPerGame": 35,
+				"passingYardsPerGame": 280,
+				"sackedYardsPerGame": 20,
+				"rushingYardsPerGame": 150
+			},
+			"top_passing_players": [
+				{
+					"player": {
+						"id": 201,
+						"name": "Tom Brady",
+						"position": "QB"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.1,
+						"rushingTouchdownsTotal": 1,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 1,
+						"receptionsPerGame": 0,
+						"rushingYardsPerGame": 5,
+						"passingYardsPerGame": 300,
+						"receivingYardsPerGame": 0
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 2,
+							"receptions": 0,
+							"rushingYards": 10,
+							"passingYards": 320,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 1,
+							"receptions": 0,
+							"rushingYards": 5,
+							"passingYards": 290,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 1,
+							"receptions": 0,
+							"rushingYards": 5,
+							"passingYards": 310,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 2,
+							"receptions": 0,
+							"rushingYards": 10,
+							"passingYards": 330,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 1,
+							"receptions": 0,
+							"rushingYards": 5,
+							"passingYards": 300,
+							"receivingYards": 0
+						}
+					]
+				}
+			],
+			"top_rushing_players": [
+				{
+					"player": {
+						"id": 202,
+						"name": "Chris Evans",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 3.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.6,
+						"rushingTouchdownsTotal": 6,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 14,
+						"receptionsPerGame": 2,
+						"rushingYardsPerGame": 70,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 25
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 15,
+							"receptions": 3,
+							"rushingYards": 75,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 12,
+							"receptions": 2,
+							"rushingYards": 60,
+							"passingYards": 0,
+							"receivingYards": 20
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 14,
+							"receptions": 3,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 25
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 15,
+							"receptions": 3,
+							"rushingYards": 75,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 13,
+							"receptions": 2,
+							"rushingYards": 65,
+							"passingYards": 0,
+							"receivingYards": 20
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 203,
+						"name": "Zach Charbonnet",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 3.2
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.7,
+						"rushingTouchdownsTotal": 7,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 16,
+						"receptionsPerGame": 1,
+						"rushingYardsPerGame": 80,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 0
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 17,
+							"receptions": 1,
+							"rushingYards": 85,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 14,
+							"receptions": 1,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 16,
+							"receptions": 1,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 15,
+							"receptions": 1,
+							"rushingYards": 75,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 17,
+							"receptions": 1,
+							"rushingYards": 85,
+							"passingYards": 0,
+							"receivingYards": 0
+						}
+					]
+				}
+			],
+			"top_receiving_players": [
+				{
+					"player": {
+						"id": 204,
+						"name": "Devin Asiasi",
+						"position": "TE"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.4
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 3,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 50
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 205,
+						"name": "Nico Collins",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.3
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 3,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 55
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 206,
+						"name": "Ronnie Bell",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 45
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 207,
+						"name": "Giles Jackson",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.3
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 45
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				}
+			],
+			"top_touchdowns_players": [
+				{
+					"player": {
+						"id": 208,
+						"name": "Ronnie Bell",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 45
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 209,
+						"name": "Nico Collins",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.3
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 45
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 210,
+						"name": "Devin Asiasi",
+						"position": "TE"
+					},
+					"odds": {
+						"line_over_under": 48.5,
+						"atd_odds": 2.4
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 3,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 50
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"game_id": 2,
+		"home": {
+			"team": {
+				"id": 3,
+				"name": "Iowa Hawkeyes"
+			},
+			"agg_stats": {
+				"pointsScoredPerGame": 28,
+				"passingYardsPerGame": 250,
+				"sackedYardsPerGame": 20,
+				"rushingYardsPerGame": 120
+			},
+			"top_passing_players": [
+				{
+					"player": {
+						"id": 101,
+						"name": "Nate Stanley",
+						"position": "QB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.1,
+						"rushingTouchdownsTotal": 1,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 2,
+						"receptionsPerGame": 0,
+						"rushingYardsPerGame": 5,
+						"passingYardsPerGame": 220,
+						"receivingYardsPerGame": 0
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 1,
+							"receptions": 0,
+							"rushingYards": 5,
+							"passingYards": 250,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 2,
+							"receptions": 0,
+							"rushingYards": 10,
+							"passingYards": 200,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 3,
+							"receptions": 0,
+							"rushingYards": 15,
+							"passingYards": 280,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 1,
+							"receptions": 0,
+							"rushingYards": 5,
+							"passingYards": 240,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 3,
+							"rushingAttempts": 1,
+							"receptions": 0,
+							"rushingYards": 5,
+							"passingYards": 260,
+							"receivingYards": 0
+						}
+					]
+				}
+			],
+			"top_rushing_players": [
+				{
+					"player": {
+						"id": 201,
+						"name": "Tyler Goodson",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.5,
+						"rushingTouchdownsTotal": 5,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 20,
+						"receptionsPerGame": 2,
+						"rushingYardsPerGame": 100,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 30
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 25,
+							"receptions": 3,
+							"rushingYards": 120,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 18,
+							"receptions": 1,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 25
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 22,
+							"receptions": 2,
+							"rushingYards": 90,
+							"passingYards": 0,
+							"receivingYards": 35
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 15,
+							"receptions": 3,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 20
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 20,
+							"receptions": 2,
+							"rushingYards": 100,
+							"passingYards": 0,
+							"receivingYards": 30
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 202,
+						"name": "Ivory Kelly-Martin",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.3,
+						"rushingTouchdownsTotal": 3,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 12,
+						"receptionsPerGame": 1,
+						"rushingYardsPerGame": 60,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 15
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 10,
+							"receptions": 1,
+							"rushingYards": 50,
+							"passingYards": 0,
+							"receivingYards": 15
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 15,
+							"receptions": 0,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 8,
+							"receptions": 2,
+							"rushingYards": 40,
+							"passingYards": 0,
+							"receivingYards": 20
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 14,
+							"receptions": 0,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 12,
+							"receptions": 1,
+							"rushingYards": 60,
+							"passingYards": 0,
+							"receivingYards": 15
+						}
+					]
+				}
+			],
+			"top_receiving_players": [
+				{
+					"player": {
+						"id": 301,
+						"name": "Brandon Smith",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 3,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 4,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 70
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 75
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 302,
+						"name": "Tyrone Tracy Jr.",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 50
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 303,
+						"name": "LaPorta Sam",
+						"position": "TE"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 40
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 304,
+						"name": "Arland Bruce IV",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 50
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						}
+					]
+				}
+			],
+			"top_touchdowns_players": [
+				{
+					"player": {
+						"id": 201,
+						"name": "Tyler Goodson",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.5,
+						"rushingTouchdownsTotal": 5,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 20,
+						"receptionsPerGame": 2,
+						"rushingYardsPerGame": 100,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 30
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 25,
+							"receptions": 3,
+							"rushingYards": 120,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 18,
+							"receptions": 1,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 25
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 22,
+							"receptions": 2,
+							"rushingYards": 90,
+							"passingYards": 0,
+							"receivingYards": 35
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 15,
+							"receptions": 3,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 20
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 20,
+							"receptions": 2,
+							"rushingYards": 100,
+							"passingYards": 0,
+							"receivingYards": 30
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 301,
+						"name": "Brandon Smith",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 3,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 4,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 70
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 75
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 303,
+						"name": "LaPorta Sam",
+						"position": "TE"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 40
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						}
+					]
+				}
+			]
+		},
+		"away": {
+			"team": {
+				"id": 4,
+				"name": "Nebraska Cornhuskers"
+			},
+			"agg_stats": {
+				"pointsScoredPerGame": 24,
+				"passingYardsPerGame": 230,
+				"sackedYardsPerGame": 25,
+				"rushingYardsPerGame": 140
+			},
+			"top_passing_players": [
+				{
+					"player": {
+						"id": 102,
+						"name": "Adrian Martinez",
+						"position": "QB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.8
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.2,
+						"rushingTouchdownsTotal": 2,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 5,
+						"receptionsPerGame": 0,
+						"rushingYardsPerGame": 30,
+						"passingYardsPerGame": 200,
+						"receivingYardsPerGame": 0
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 5,
+							"receptions": 0,
+							"rushingYards": 30,
+							"passingYards": 240,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 4,
+							"receptions": 0,
+							"rushingYards": 20,
+							"passingYards": 220,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 6,
+							"receptions": 0,
+							"rushingYards": 35,
+							"passingYards": 240,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 5,
+							"receptions": 0,
+							"rushingYards": 30,
+							"passingYards": 230,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 3,
+							"rushingAttempts": 6,
+							"receptions": 0,
+							"rushingYards": 35,
+							"passingYards": 250,
+							"receivingYards": 0
+						}
+					]
+				}
+			],
+			"top_rushing_players": [
+				{
+					"player": {
+						"id": 211,
+						"name": "Gabe Ervin Jr.",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.2
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.4,
+						"rushingTouchdownsTotal": 4,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 15,
+						"receptionsPerGame": 1,
+						"rushingYardsPerGame": 80,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 10
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 18,
+							"receptions": 0,
+							"rushingYards": 90,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 12,
+							"receptions": 1,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 5
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 15,
+							"receptions": 0,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 10,
+							"receptions": 2,
+							"rushingYards": 60,
+							"passingYards": 0,
+							"receivingYards": 20
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 12,
+							"receptions": 0,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 0
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 212,
+						"name": "Marvin Scott III",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.4
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.3,
+						"rushingTouchdownsTotal": 3,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 10,
+						"receptionsPerGame": 0,
+						"rushingYardsPerGame": 50,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 0
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 12,
+							"receptions": 0,
+							"rushingYards": 60,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 15,
+							"receptions": 0,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 10,
+							"receptions": 0,
+							"rushingYards": 50,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 14,
+							"receptions": 0,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 12,
+							"receptions": 0,
+							"rushingYards": 60,
+							"passingYards": 0,
+							"receivingYards": 0
+						}
+					]
+				}
+			],
+			"top_receiving_players": [
+				{
+					"player": {
+						"id": 311,
+						"name": "Samori Toure",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.2
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 2,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 60
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 40
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 312,
+						"name": "Omar Manning",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.2
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 3,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 50
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 50
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 313,
+						"name": "Leontes Carroo",
+						"position": "TE"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.5
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 2,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 30
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 1,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 15
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 314,
+						"name": "Wyatt Liewer",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.8
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 1,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 2,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 30
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 1,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 15
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 45
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 2,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 30
+						}
+					]
+				}
+			],
+			"top_touchdowns_players": [
+				{
+					"player": {
+						"id": 211,
+						"name": "Gabe Ervin Jr.",
+						"position": "RB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.2
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.4,
+						"rushingTouchdownsTotal": 4,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 15,
+						"receptionsPerGame": 1,
+						"rushingYardsPerGame": 80,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 10
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 18,
+							"receptions": 0,
+							"rushingYards": 90,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 12,
+							"receptions": 1,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 5
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 15,
+							"receptions": 0,
+							"rushingYards": 80,
+							"passingYards": 0,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 10,
+							"receptions": 2,
+							"rushingYards": 60,
+							"passingYards": 0,
+							"receivingYards": 20
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 12,
+							"receptions": 0,
+							"rushingYards": 70,
+							"passingYards": 0,
+							"receivingYards": 0
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 102,
+						"name": "Adrian Martinez",
+						"position": "QB"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 2.8
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0.2,
+						"rushingTouchdownsTotal": 2,
+						"receivingTouchdownsTotal": 0,
+						"rushingAttemptsPerGame": 5,
+						"receptionsPerGame": 0,
+						"rushingYardsPerGame": 30,
+						"passingYardsPerGame": 200,
+						"receivingYardsPerGame": 0
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 2,
+							"rushingAttempts": 5,
+							"receptions": 0,
+							"rushingYards": 30,
+							"passingYards": 240,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 4,
+							"receptions": 0,
+							"rushingYards": 20,
+							"passingYards": 220,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 1,
+							"touchdowns": 1,
+							"rushingAttempts": 6,
+							"receptions": 0,
+							"rushingYards": 35,
+							"passingYards": 240,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 5,
+							"receptions": 0,
+							"rushingYards": 30,
+							"passingYards": 230,
+							"receivingYards": 0
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 3,
+							"rushingAttempts": 6,
+							"receptions": 0,
+							"rushingYards": 35,
+							"passingYards": 250,
+							"receivingYards": 0
+						}
+					]
+				},
+				{
+					"player": {
+						"id": 301,
+						"name": "Brandon Smith",
+						"position": "WR"
+					},
+					"odds": {
+						"line_over_under": 48,
+						"atd_odds": 3.0
+					},
+					"agg_stats": {
+						"rushingTouchdownsPerGame": 0,
+						"rushingTouchdownsTotal": 0,
+						"receivingTouchdownsTotal": 3,
+						"rushingAttemptsPerGame": 0,
+						"receptionsPerGame": 4,
+						"rushingYardsPerGame": 0,
+						"passingYardsPerGame": 0,
+						"receivingYardsPerGame": 70
+					},
+					"last_games_stats": [
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 80
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 3,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 60
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 1,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 70
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 0,
+							"rushingAttempts": 0,
+							"receptions": 5,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 90
+						},
+						{
+							"rushingTouchdowns": 0,
+							"touchdowns": 2,
+							"rushingAttempts": 0,
+							"receptions": 4,
+							"rushingYards": 0,
+							"passingYards": 0,
+							"receivingYards": 75
+						}
+					]
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,24 @@
+[
+	{
+		"id": 1,
+		"home": {
+			"id": 1,
+			"name": "Washington Huskies"
+		},
+		"away": {
+			"id": 2,
+			"name": "Michigan Wolverines"
+		}
+	},
+	{
+		"id": 2,
+		"home": {
+			"id": 3,
+			"name": "Iowa Hawkeyes"
+		},
+		"away": {
+			"id": 4,
+			"name": "Nebraska Cornhuskers"
+		}
+	}
+]
