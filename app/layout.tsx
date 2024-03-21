@@ -28,7 +28,7 @@ export default function RootLayout({
           />
           <Nav />
         </div>
-        <main className="grow pt-4 h-screen">{children}</main>
+        <main className="grow pt-4 h-screen max-w-screen-lg">{children}</main>
       </body>
     </html>
   );

@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         "vf-blue": "#03072c",
+        "vf-blue2": "#030938",
       },
     },
   },

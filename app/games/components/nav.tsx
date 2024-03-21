@@ -14,7 +14,7 @@ export default function Nav() {
           <Link
             href="/games/nfl"
             className={`inline-block  rounded-xl py-1 px-2 ${
-              pathname === "/games/nfl"
+              pathname.startsWith("/games/nfl")
                 ? "text-gray-100 bg-sky-800"
                 : "text-gray-400 border-sky-800 border-solid border-2"
             }`}
