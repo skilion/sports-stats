@@ -79,8 +79,10 @@ export default function DuelTeam({
             {duelPlayer.agg_stats.rushingTouchdownsPerGame +
               duelPlayer.agg_stats.receivingTouchdownsTotal}
           </td>
-          {duelPlayer.last_games_stats.map((playerStat) => (
-            <td className={dataClass}>{`${playerStat.passingYards}(${
+          {duelPlayer.last_games_stats.map((playerStat, index) => (
+            <td key={index} className={dataClass}>{`${
+              playerStat.passingYards
+            }(${
               playerStat.rushingTouchdowns + playerStat.receivingTouchdowns
             })`}</td>
           ))}
@@ -113,8 +115,9 @@ export default function DuelTeam({
           <td className={dataClass}>
             {duelPlayer.agg_stats.rushingAttemptsPerGame}
           </td>
-          {duelPlayer.last_games_stats.map((playerStat) => (
+          {duelPlayer.last_games_stats.map((playerStat, index) => (
             <td
+              key={index}
               className={dataClass}
             >{`${playerStat.rushingYards}(${playerStat.rushingAttempts})`}</td>
           ))}
@@ -147,8 +150,9 @@ export default function DuelTeam({
           <td className={dataClass}>
             {duelPlayer.agg_stats.receptionsPerGame}
           </td>
-          {duelPlayer.last_games_stats.map((playerStat) => (
+          {duelPlayer.last_games_stats.map((playerStat, index) => (
             <td
+              key={index}
               className={dataClass}
             >{`${playerStat.receivingYards}(${playerStat.receptions})`}</td>
           ))}
@@ -181,8 +185,8 @@ export default function DuelTeam({
           <td className={dataClass}>
             {duelPlayer.agg_stats.receivingTouchdownsTotal}
           </td>
-          {duelPlayer.last_games_stats.map((playerStat) => (
-            <td className={dataClass}>
+          {duelPlayer.last_games_stats.map((playerStat, index) => (
+            <td key={index} className={dataClass}>
               {playerStat.rushingTouchdowns + playerStat.receivingTouchdowns}
             </td>
           ))}
