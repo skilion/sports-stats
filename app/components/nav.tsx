@@ -21,7 +21,7 @@ export default function Nav() {
           <Link
             href="/games"
             className={
-              pathname === "/games" ? "text-gray-100" : "text-gray-400"
+              pathname.startsWith("/games") ? "text-gray-100" : "text-gray-400"
             }
           >
             Games

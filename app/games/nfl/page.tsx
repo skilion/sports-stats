@@ -16,7 +16,10 @@ export default function NflGames() {
   return (
     <ul className="p-8">
       {data.map((game) => (
-        <li key={game.id} className="mb-8 p-2 rounded-md bg-vf-blue flex">
+        <li
+          key={game.id}
+          className="mb-8 p-4 rounded-lg bg-zinc-800 flex max-w-screen-sm"
+        >
           <div>
             <div className="mb-4 flex items-center">
               <div className="rounded-full size-8 bg-gray-300 text-gray-500 font-bold flex justify-center items-center">
@@ -32,7 +35,7 @@ export default function NflGames() {
             </div>
           </div>
           <div className="mr-8 uppercase font-bold flex flex-grow justify-end items-center">
-            <Link href={`/games/nfl/${game.id}/duel`}>View Duel {">"}</Link>
+            <Link href={`/games/nfl/${game.id}/duel`}>View Duel 🠮</Link>
           </div>
         </li>
       ))}

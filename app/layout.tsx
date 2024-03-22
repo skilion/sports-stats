@@ -18,17 +18,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${font.className} flex bg-vf-blue text-gray-100`}>
-        <div className="px-8 h-screen">
+        <div className="w-60 h-screen flex flex-col content-center">
           <Image
-            className="m-2"
+            className="mx-auto w-32"
             src="/verified_global_group_logo.jpg"
-            width={100}
-            height={100}
+            width={300}
+            height={300}
             alt="Verified Global Logo"
           />
-          <Nav />
+          <div className="mx-auto w-32 pl-4">
+            <Nav />
+          </div>
         </div>
-        <main className="grow pt-4 h-screen max-w-screen-lg">{children}</main>
+        <main className="grow mx-4 pt-4 h-screen">{children}</main>
       </body>
     </html>
   );
