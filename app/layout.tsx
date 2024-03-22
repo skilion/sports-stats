@@ -7,7 +7,7 @@ import Nav from "./components/nav";
 const font = Noto_Sans_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Verified Global Homework",
+  title: "Sports Stats",
 };
 
 export default function RootLayout({
@@ -21,10 +21,10 @@ export default function RootLayout({
         <div className="w-60 h-screen flex flex-col content-center">
           <Image
             className="mx-auto w-32"
-            src="/verified_global_group_logo.jpg"
+            src="/logo.jpg"
             width={300}
             height={300}
-            alt="Verified Global Logo"
+            alt="Logo"
           />
           <div className="mx-auto w-32 pl-4">
             <Nav />

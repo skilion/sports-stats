@@ -1,4 +1,4 @@
-Verified Global Homework, built with [Next.js](https://nextjs.org/).
+Demo application to show statistics for NFL games, built with [Next.js](https://nextjs.org/).
 
 ### Requirements
 
@@ -40,11 +40,7 @@ Get the data duel statistics for an NFL game
 
 ## Data Model
 
-- UML Class Diagram of the data model for the NFL Data Duels
+- UML Class Diagram of the data model for the NFL statistics
 - Drawn using [TsUML2](https://github.com/demike/TsUML2)
 
 ![data model](data_model.svg)
-
-## TODOs
-
-- add teams points spread in the data duel table
