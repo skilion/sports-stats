@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="1146.8"
+   height="741.0"
+   viewbox="0 0 1146.75 741"
+   id="svg132"
+   sodipodi:docname="out.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs132" />
+  <sodipodi:namedview
+     id="namedview132"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.97837457"
+     inkscape:cx="572.88897"
+     inkscape:cy="370.51249"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg132" />
+  <desc
+     id="desc1">#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+[&lt;interface&gt;AggPlayerStats|+rushingTouchdownsPerGame: number;+rushingTouchdownsTotal: number;+receivingTouchdownsTotal: number;+rushingAttemptsPerGame: number;+receptionsPerGame: number;+rushingYardsPerGame: number;+passingYardsPerGame: number;+receivingYardsPerGame: number|]
+[&lt;interface&gt;AggTeamStats|+pointsScoredTotal: number;+pointsScoredPerGame: number;+passingYardsPerGame: number;+sackedYardsPerGame: number;+rushingYardsPerGame: number|]
+[&lt;interface&gt;DuelPlayer|+player: Player;+odds: PlayerOdds;+agg_stats: AggPlayerStats;+last_games_stats: PlayerStats\[\]|]
+[DuelPlayer]  -  [Player]
+[DuelPlayer]  -  [PlayerOdds]
+[DuelPlayer]  -  [AggPlayerStats]
+[DuelPlayer]  - 0..* [PlayerStats]
+[&lt;interface&gt;DuelTeam|+team: Team;+agg_stats: AggTeamStats;+top_passing_players: DuelPlayer\[\];+top_rushing_players: DuelPlayer\[\];+top_receiving_players: DuelPlayer\[\];+top_touchdowns_players: DuelPlayer\[\]|]
+[DuelTeam]  -  [Team]
+[DuelTeam]  -  [AggTeamStats]
+[DuelTeam]  - 0..* [DuelPlayer]
+[DuelTeam]  - 0..* [DuelPlayer]
+[DuelTeam]  - 0..* [DuelPlayer]
+[DuelTeam]  - 0..* [DuelPlayer]
+[&lt;interface&gt;Duel|+game_id: number;+home: DuelTeam;+away: DuelTeam|]
+[Duel]  -  [DuelTeam]
+[Duel]  -  [DuelTeam]
+[&lt;interface&gt;Game|+id: number;+home: Team;+away: Team|]
+[Game]  -  [Team]
+[Game]  -  [Team]
+[&lt;interface&gt;PlayerOdds|+line_over_under: number;+atd_odds: number|]
+[&lt;interface&gt;PlayerStats|+rushingTouchdowns: number;+receivingTouchdowns: number;+rushingAttempts: number;+receptions: number;+rushingYards: number;+passingYards: number;+receivingYards: number|]
+[&lt;interface&gt;Player|+id: number;+name: string;+position: string|]
+[&lt;interface&gt;TeamStats|+pointsScored: number;+passingYards: number;+sackedYards: number;+rushingYards: number|]
+[&lt;interface&gt;Team|+id: number;+name: string|]</desc>
+  <g
+     transform="translate(8,8)"
+     fill="#33322e"
+     id="g130"
+     style="font-style:normal;font-weight:bold;font-size:16px;font-family:Helvetica;text-align:left;stroke:#33322e;stroke-width:3;stroke-linecap:round;stroke-linejoin:round">
+    <g
+       transform="translate(20,20)"
+       fill="#33322e"
+       font-family="Helvetica"
+       font-size="16px"
+       font-weight="normal"
+       font-style="normal"
+       id="g129">
+      <path
+         d="M 318,435.9 77.75,490 v 57.5 h 0.05"
+         fill="none"
+         id="path1" />
+      <path
+         d="M 351.2,462.5 301.25,490 v 65 h 0.05"
+         fill="none"
+         id="path2" />
+      <path
+         d="m 565.6,462.5 52.65,27.5 v 20 h 0.05"
+         fill="none"
+         id="path3" />
+      <text
+         x="964.79999"
+         y="509.5"
+         stroke="none"
+         id="text3">0..*</text>
+      <path
+         d="M 593,428.3 956.75,490 v 27.5 h 0.05"
+         fill="none"
+         id="path4" />
+      <path
+         d="m 580.1,300 33.15,20 47.75,42.5 v 0"
+         fill="none"
+         id="path5" />
+      <path
+         d="M 294.8,275.1 139,320 v 20 0"
+         fill="none"
+         id="path6" />
+      <text
+         x="316.29999"
+         y="339.5"
+         stroke="none"
+         id="text6">0..*</text>
+      <path
+         d="m 335.7,300 -34.2,20 49.82353,27.5 H 351.3"
+         fill="none"
+         id="path7" />
+      <text
+         x="343.39999"
+         y="339.5"
+         stroke="none"
+         id="text7">0..*</text>
+      <path
+         d="m 367.1,300 -25.6,20 36.88235,27.5 H 378.4"
+         fill="none"
+         id="path8" />
+      <text
+         x="473.10001"
+         y="339.5"
+         stroke="none"
+         id="text8">0..*</text>
+      <path
+         d="m 517.4,300 15.85,20 -25.15441,27.5 h 0.004"
+         fill="none"
+         id="path9" />
+      <text
+         x="500.20001"
+         y="339.5"
+         stroke="none"
+         id="text9">0..*</text>
+      <path
+         d="m 548.7,300 24.55,20 -38.09559,27.5 H 535.2"
+         fill="none"
+         id="path10" />
+      <path
+         d="m 446.8,107.5 -7.05,27.5 4.32432,20 H 444.1"
+         fill="none"
+         id="path11" />
+      <path
+         d="m 472.7,107.5 7.05,27.5 -4.32432,20 H 475.4"
+         fill="none"
+         id="path12" />
+      <path
+         d="M 689.9,277.5 653.25,320 681,362.5 v 0"
+         fill="none"
+         id="path13" />
+      <path
+         d="M 743.8,277.5 753,320 730.875,362.5 H 730.9"
+         fill="none"
+         id="path14" />
+      <g
+         data-name="AggPlayerStats"
+         id="g29">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="AggPlayerStats"
+           id="g16">
+          <rect
+             x="453.79999"
+             y="510"
+             height="175"
+             width="329"
+             data-name="AggPlayerStats"
+             id="rect14" />
+          <path
+             d="m 453.8,541 h 329"
+             fill="none"
+             data-name="AggPlayerStats"
+             id="path15" />
+          <path
+             d="m 453.8,677 h 329"
+             fill="none"
+             data-name="AggPlayerStats"
+             id="path16" />
+        </g>
+        <g
+           transform="translate(453.75,510)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="AggPlayerStats"
+           id="g18">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="AggPlayerStats"
+             id="g17">
+            <a
+               id="app/models/nfl/agg-player-stats.ts.AggPlayerStats"
+               xlink:href="app/models/nfl/agg-player-stats.ts">
+              <text
+                 x="156.5"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="AggPlayerStats"
+                 id="text16">AggPlayerStats</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(453.75,541)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="AggPlayerStats"
+           id="g26">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="AggPlayerStats"
+             id="g25">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text18">+rushingTouchdownsPerGame: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text19">+rushingTouchdownsTotal: number</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text20">+receivingTouchdownsTotal: number</text>
+            <text
+               x="0"
+               y="58.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text21">+rushingAttemptsPerGame: number</text>
+            <text
+               x="0"
+               y="73.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text22">+receptionsPerGame: number</text>
+            <text
+               x="0"
+               y="88.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text23">+rushingYardsPerGame: number</text>
+            <text
+               x="0"
+               y="103.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text24">+passingYardsPerGame: number</text>
+            <text
+               x="0"
+               y="118.5"
+               stroke="none"
+               data-name="AggPlayerStats"
+               id="text25">+receivingYardsPerGame: number</text>
+          </g>
+        </g>
+        <g
+           transform="translate(453.75,677)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="AggPlayerStats"
+           id="g28">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="AggPlayerStats"
+             id="g27" />
+        </g>
+      </g>
+      <g
+         data-name="AggTeamStats"
+         id="g40">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="AggTeamStats"
+           id="g30">
+          <rect
+             x="0"
+             y="340"
+             height="130"
+             width="278"
+             data-name="AggTeamStats"
+             id="rect29" />
+          <path
+             d="M 0,371 H 278"
+             fill="none"
+             data-name="AggTeamStats"
+             id="path29" />
+          <path
+             d="M 0,462 H 278"
+             fill="none"
+             data-name="AggTeamStats"
+             id="path30" />
+        </g>
+        <g
+           transform="translate(0,340)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="AggTeamStats"
+           id="g32">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="AggTeamStats"
+             id="g31">
+            <a
+               id="app/models/nfl/agg-team-stats.ts.AggTeamStats"
+               xlink:href="app/models/nfl/agg-team-stats.ts">
+              <text
+                 x="131"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="AggTeamStats"
+                 id="text30">AggTeamStats</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(0,371)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="AggTeamStats"
+           id="g37">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="AggTeamStats"
+             id="g36">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="AggTeamStats"
+               id="text32">+pointsScoredTotal: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="AggTeamStats"
+               id="text33">+pointsScoredPerGame: number</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="AggTeamStats"
+               id="text34">+passingYardsPerGame: number</text>
+            <text
+               x="0"
+               y="58.5"
+               stroke="none"
+               data-name="AggTeamStats"
+               id="text35">+sackedYardsPerGame: number</text>
+            <text
+               x="0"
+               y="73.5"
+               stroke="none"
+               data-name="AggTeamStats"
+               id="text36">+rushingYardsPerGame: number</text>
+          </g>
+        </g>
+        <g
+           transform="translate(0,462)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="AggTeamStats"
+           id="g39">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="AggTeamStats"
+             id="g38" />
+        </g>
+      </g>
+      <g
+         data-name="DuelPlayer"
+         id="g50">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="DuelPlayer"
+           id="g41">
+          <rect
+             x="318"
+             y="347.5"
+             height="115"
+             width="275"
+             data-name="DuelPlayer"
+             id="rect40" />
+          <path
+             d="M 318,378.5 H 593"
+             fill="none"
+             data-name="DuelPlayer"
+             id="path40" />
+          <path
+             d="M 318,454.5 H 593"
+             fill="none"
+             data-name="DuelPlayer"
+             id="path41" />
+        </g>
+        <g
+           transform="translate(318,347.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="DuelPlayer"
+           id="g43">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="DuelPlayer"
+             id="g42">
+            <a
+               id="app/models/nfl/duel-player.ts.DuelPlayer"
+               xlink:href="app/models/nfl/duel-player.ts">
+              <text
+                 x="129.5"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="DuelPlayer"
+                 id="text41">DuelPlayer</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(318,378.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="DuelPlayer"
+           id="g47">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="DuelPlayer"
+             id="g46">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="DuelPlayer"
+               id="text43">+player: Player</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="DuelPlayer"
+               id="text44">+odds: PlayerOdds</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="DuelPlayer"
+               id="text45">+agg_stats: AggPlayerStats</text>
+            <text
+               x="0"
+               y="58.5"
+               stroke="none"
+               data-name="DuelPlayer"
+               id="text46">+last_games_stats: PlayerStats[]</text>
+          </g>
+        </g>
+        <g
+           transform="translate(318,454.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="DuelPlayer"
+           id="g49">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="DuelPlayer"
+             id="g48" />
+        </g>
+      </g>
+      <g
+         data-name="Player"
+         id="g59">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="Player"
+           id="g51">
+          <rect
+             x="6.8000002"
+             y="547.5"
+             height="100"
+             width="142"
+             data-name="Player"
+             id="rect50" />
+          <path
+             d="m 6.8,578.5 h 142"
+             fill="none"
+             data-name="Player"
+             id="path50" />
+          <path
+             d="m 6.8,639.5 h 142"
+             fill="none"
+             data-name="Player"
+             id="path51" />
+        </g>
+        <g
+           transform="translate(6.75,547.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Player"
+           id="g53">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="Player"
+             id="g52">
+            <a
+               id="app/models/nfl/player.ts.Player"
+               xlink:href="app/models/nfl/player.ts">
+              <text
+                 x="63"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="Player"
+                 id="text51">Player</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(6.75,578.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Player"
+           id="g56">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="Player"
+             id="g55">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="Player"
+               id="text53">+id: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="Player"
+               id="text54">+name: string</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="Player"
+               id="text55">+position: string</text>
+          </g>
+        </g>
+        <g
+           transform="translate(6.75,639.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Player"
+           id="g58">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="Player"
+             id="g57" />
+        </g>
+      </g>
+      <g
+         data-name="PlayerOdds"
+         id="g67">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="PlayerOdds"
+           id="g60">
+          <rect
+             x="188.8"
+             y="555"
+             height="85"
+             width="225"
+             data-name="PlayerOdds"
+             id="rect59" />
+          <path
+             d="m 188.8,586 h 225"
+             fill="none"
+             data-name="PlayerOdds"
+             id="path59" />
+          <path
+             d="m 188.8,632 h 225"
+             fill="none"
+             data-name="PlayerOdds"
+             id="path60" />
+        </g>
+        <g
+           transform="translate(188.75,555)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="PlayerOdds"
+           id="g62">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="PlayerOdds"
+             id="g61">
+            <a
+               id="app/models/nfl/player-odds.ts.PlayerOdds"
+               xlink:href="app/models/nfl/player-odds.ts">
+              <text
+                 x="104.5"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="PlayerOdds"
+                 id="text60">PlayerOdds</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(188.75,586)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="PlayerOdds"
+           id="g64">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="PlayerOdds"
+             id="g63">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="PlayerOdds"
+               id="text62">+line_over_under: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="PlayerOdds"
+               id="text63">+atd_odds: number</text>
+          </g>
+        </g>
+        <g
+           transform="translate(188.75,632)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="PlayerOdds"
+           id="g66">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="PlayerOdds"
+             id="g65" />
+        </g>
+      </g>
+      <g
+         data-name="PlayerStats"
+         id="g80">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="PlayerStats"
+           id="g68">
+          <rect
+             x="822.79999"
+             y="517.5"
+             height="160"
+             width="268"
+             data-name="PlayerStats"
+             id="rect67" />
+          <path
+             d="m 822.8,548.5 h 268"
+             fill="none"
+             data-name="PlayerStats"
+             id="path67" />
+          <path
+             d="m 822.8,669.5 h 268"
+             fill="none"
+             data-name="PlayerStats"
+             id="path68" />
+        </g>
+        <g
+           transform="translate(822.75,517.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="PlayerStats"
+           id="g70">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="PlayerStats"
+             id="g69">
+            <a
+               id="app/models/nfl/player-stats.ts.PlayerStats"
+               xlink:href="app/models/nfl/player-stats.ts">
+              <text
+                 x="126"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="PlayerStats"
+                 id="text68">PlayerStats</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(822.75,548.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="PlayerStats"
+           id="g77">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="PlayerStats"
+             id="g76">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="PlayerStats"
+               id="text70">+rushingTouchdowns: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="PlayerStats"
+               id="text71">+receivingTouchdowns: number</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="PlayerStats"
+               id="text72">+rushingAttempts: number</text>
+            <text
+               x="0"
+               y="58.5"
+               stroke="none"
+               data-name="PlayerStats"
+               id="text73">+receptions: number</text>
+            <text
+               x="0"
+               y="73.5"
+               stroke="none"
+               data-name="PlayerStats"
+               id="text74">+rushingYards: number</text>
+            <text
+               x="0"
+               y="88.5"
+               stroke="none"
+               data-name="PlayerStats"
+               id="text75">+passingYards: number</text>
+            <text
+               x="0"
+               y="103.5"
+               stroke="none"
+               data-name="PlayerStats"
+               id="text76">+receivingYards: number</text>
+          </g>
+        </g>
+        <g
+           transform="translate(822.75,669.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="PlayerStats"
+           id="g79">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="PlayerStats"
+             id="g78" />
+        </g>
+      </g>
+      <g
+         data-name="DuelTeam"
+         id="g92">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="DuelTeam"
+           id="g81">
+          <rect
+             x="294.79999"
+             y="155"
+             height="145"
+             width="330"
+             data-name="DuelTeam"
+             id="rect80" />
+          <path
+             d="m 294.8,186 h 330"
+             fill="none"
+             data-name="DuelTeam"
+             id="path80" />
+          <path
+             d="m 294.8,292 h 330"
+             fill="none"
+             data-name="DuelTeam"
+             id="path81" />
+        </g>
+        <g
+           transform="translate(294.75,155)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="DuelTeam"
+           id="g83">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="DuelTeam"
+             id="g82">
+            <a
+               id="app/models/nfl/duel-team.ts.DuelTeam"
+               xlink:href="app/models/nfl/duel-team.ts">
+              <text
+                 x="157"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="DuelTeam"
+                 id="text81">DuelTeam</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(294.75,186)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="DuelTeam"
+           id="g89">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="DuelTeam"
+             id="g88">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="DuelTeam"
+               id="text83">+team: Team</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="DuelTeam"
+               id="text84">+agg_stats: AggTeamStats</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="DuelTeam"
+               id="text85">+top_passing_players: DuelPlayer[]</text>
+            <text
+               x="0"
+               y="58.5"
+               stroke="none"
+               data-name="DuelTeam"
+               id="text86">+top_rushing_players: DuelPlayer[]</text>
+            <text
+               x="0"
+               y="73.5"
+               stroke="none"
+               data-name="DuelTeam"
+               id="text87">+top_receiving_players: DuelPlayer[]</text>
+            <text
+               x="0"
+               y="88.5"
+               stroke="none"
+               data-name="DuelTeam"
+               id="text88">+top_touchdowns_players: DuelPlayer[]</text>
+          </g>
+        </g>
+        <g
+           transform="translate(294.75,292)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="DuelTeam"
+           id="g91">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="DuelTeam"
+             id="g90" />
+        </g>
+      </g>
+      <g
+         data-name="Team"
+         id="g100">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="Team"
+           id="g93">
+          <rect
+             x="646.79999"
+             y="362.5"
+             height="85"
+             width="124"
+             data-name="Team"
+             id="rect92" />
+          <path
+             d="m 646.8,393.5 h 124"
+             fill="none"
+             data-name="Team"
+             id="path92" />
+          <path
+             d="m 646.8,439.5 h 124"
+             fill="none"
+             data-name="Team"
+             id="path93" />
+        </g>
+        <g
+           transform="translate(646.75,362.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Team"
+           id="g95">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="Team"
+             id="g94">
+            <a
+               id="app/models/nfl/team.ts.Team"
+               xlink:href="app/models/nfl/team.ts">
+              <text
+                 x="54"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="Team"
+                 id="text93">Team</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(646.75,393.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Team"
+           id="g97">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="Team"
+             id="g96">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="Team"
+               id="text95">+id: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="Team"
+               id="text96">+name: string</text>
+          </g>
+        </g>
+        <g
+           transform="translate(646.75,439.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Team"
+           id="g99">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="Team"
+             id="g98" />
+        </g>
+      </g>
+      <g
+         data-name="Duel"
+         id="g109">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="Duel"
+           id="g101">
+          <rect
+             x="377.79999"
+             y="7.5"
+             height="100"
+             width="164"
+             data-name="Duel"
+             id="rect100" />
+          <path
+             d="m 377.8,38.5 h 164"
+             fill="none"
+             data-name="Duel"
+             id="path100" />
+          <path
+             d="m 377.8,99.5 h 164"
+             fill="none"
+             data-name="Duel"
+             id="path101" />
+        </g>
+        <g
+           transform="translate(377.75,7.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Duel"
+           id="g103">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="Duel"
+             id="g102">
+            <a
+               id="app/models/nfl/duel.ts.Duel"
+               xlink:href="app/models/nfl/duel.ts">
+              <text
+                 x="74"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="Duel"
+                 id="text101">Duel</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(377.75,38.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Duel"
+           id="g106">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="Duel"
+             id="g105">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="Duel"
+               id="text103">+game_id: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="Duel"
+               id="text104">+home: DuelTeam</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="Duel"
+               id="text105">+away: DuelTeam</text>
+          </g>
+        </g>
+        <g
+           transform="translate(377.75,99.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Duel"
+           id="g108">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="Duel"
+             id="g107" />
+        </g>
+      </g>
+      <g
+         data-name="Game"
+         id="g118">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="Game"
+           id="g110">
+          <rect
+             x="671"
+             y="177.5"
+             height="100"
+             width="124"
+             data-name="Game"
+             id="rect109" />
+          <path
+             d="M 671,208.5 H 795"
+             fill="none"
+             data-name="Game"
+             id="path109" />
+          <path
+             d="M 671,269.5 H 795"
+             fill="none"
+             data-name="Game"
+             id="path110" />
+        </g>
+        <g
+           transform="translate(671,177.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Game"
+           id="g112">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="Game"
+             id="g111">
+            <a
+               id="app/models/nfl/game.ts.Game"
+               xlink:href="app/models/nfl/game.ts">
+              <text
+                 x="54"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="Game"
+                 id="text110">Game</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(671,208.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Game"
+           id="g115">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="Game"
+             id="g114">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="Game"
+               id="text112">+id: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="Game"
+               id="text113">+home: Team</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="Game"
+               id="text114">+away: Team</text>
+          </g>
+        </g>
+        <g
+           transform="translate(671,269.5)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="Game"
+           id="g117">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="Game"
+             id="g116" />
+        </g>
+      </g>
+      <g
+         data-name="TeamStats"
+         id="g128">
+        <g
+           fill="#add8e6"
+           stroke="#33322e"
+           data-name="TeamStats"
+           id="g119">
+          <rect
+             x="581.79999"
+             y="0"
+             height="115"
+             width="204"
+             data-name="TeamStats"
+             id="rect118" />
+          <path
+             d="m 581.8,31 h 204"
+             fill="none"
+             data-name="TeamStats"
+             id="path118" />
+          <path
+             d="m 581.8,107 h 204"
+             fill="none"
+             data-name="TeamStats"
+             id="path119" />
+        </g>
+        <g
+           transform="translate(581.75)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="TeamStats"
+           id="g121">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="center"
+             data-name="TeamStats"
+             id="g120">
+            <a
+               id="app/models/nfl/team-stats.ts.TeamStats"
+               xlink:href="app/models/nfl/team-stats.ts">
+              <text
+                 x="94"
+                 y="13.5"
+                 stroke="none"
+                 text-anchor="middle"
+                 data-name="TeamStats"
+                 id="text119">TeamStats</text>
+            </a>
+          </g>
+        </g>
+        <g
+           transform="translate(581.75,31)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="TeamStats"
+           id="g125">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             text-align="left"
+             data-name="TeamStats"
+             id="g124">
+            <text
+               x="0"
+               y="13.5"
+               stroke="none"
+               data-name="TeamStats"
+               id="text121">+pointsScored: number</text>
+            <text
+               x="0"
+               y="28.5"
+               stroke="none"
+               data-name="TeamStats"
+               id="text122">+passingYards: number</text>
+            <text
+               x="0"
+               y="43.5"
+               stroke="none"
+               data-name="TeamStats"
+               id="text123">+sackedYards: number</text>
+            <text
+               x="0"
+               y="58.5"
+               stroke="none"
+               data-name="TeamStats"
+               id="text124">+rushingYards: number</text>
+          </g>
+        </g>
+        <g
+           transform="translate(581.75,107)"
+           font-family="Helvetica"
+           font-size="16px"
+           font-weight="normal"
+           font-style="normal"
+           data-name="TeamStats"
+           id="g127">
+          <g
+             transform="translate(8,8)"
+             fill="#33322e"
+             data-name="TeamStats"
+             id="g126" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
