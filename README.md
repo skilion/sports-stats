@@ -13,6 +13,17 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## E2E Tests
+
+E2E tests provided by [Playwright](https://playwright.dev/).
+
+```bash
+npm run build
+npm start
+
+npm run test # in another terminal window
+```
+
 ## Backend REST API
 
 ### List NFL games
@@ -36,5 +47,4 @@ Get the data duel statistics for an NFL game
 
 ## TODOs
 
-- add teams points spread in the data duel
-- tests
+- add teams points spread in the data duel table
